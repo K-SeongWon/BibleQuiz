@@ -51,6 +51,8 @@ out/
 .svelte-kit/
 .turbo/
 .cache/
+.vite/
+dev-dist/
 *.tsbuildinfo
 
 # ─────────────────────────────────────────────
