@@ -1,5 +1,14 @@
-// 게임 모드 플러그인 레지스트리.
-// 각 모드는 UI · 진행 상태 머신 · 점수 규칙 · 옵션 스키마를 제공한다.
-// MVP에서는 BuzzerTeamIndividual 1개를 구현한다 (후속 PR).
+import { BuzzerTeamIndividualOptions } from "@/schema";
 
-export const gameModes = {} as const;
+/**
+ * Game mode plugin registry.
+ * MVP: BuzzerTeamIndividual only. Future modes will register here.
+ */
+export const gameModes = {
+  BuzzerTeamIndividual: {
+    id: "BuzzerTeamIndividual" as const,
+    optionsSchema: BuzzerTeamIndividualOptions,
+  },
+} as const;
+
+export type GameModeId = keyof typeof gameModes;
