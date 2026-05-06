@@ -1,0 +1,24 @@
+# Force LF line endings for all text files across platforms.
+# Without this, Windows clients with core.autocrlf=true end up with CRLF in
+# working tree and Biome / other LF-preferring tools complain.
+
+* text=auto eol=lf
+
+# Explicit binary types that must NEVER be normalized
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.gz   binary
+*.woff binary
+*.woff2 binary
+
+# Lock files: keep LF
+bun.lock text eol=lf
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+pnpm-lock.yaml text eol=lf
