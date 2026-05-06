@@ -1,0 +1,26 @@
+{
+  "app": {
+    "title": "BibleQuiz",
+    "tagline": "교회 성경퀴즈대회를 위한 올인원 도구"
+  },
+  "nav": {
+    "stage": "Stage (전광판)",
+    "console": "Console (진행자)",
+    "pad": "Pad (참가자)"
+  },
+  "stage": {
+    "title": "Stage",
+    "placeholder": "곧 문제와 점수판이 여기에 표시됩니다."
+  },
+  "console": {
+    "title": "Console",
+    "placeholder": "진행자 제어 패널 — 구현 대기."
+  },
+  "pad": {
+    "title": "Pad",
+    "placeholder": "참가자 입력 화면 — 구현 대기."
+  },
+  "common": {
+    "version": "v0.0.0 · scaffold"
+  }
+}
