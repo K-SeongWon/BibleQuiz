@@ -20,7 +20,13 @@
     "title": "Pad",
     "placeholder": "참가자 입력 화면 — 구현 대기."
   },
+  "home": {
+    "open": "열기"
+  },
+  "theme": {
+    "toggle": "테마 전환"
+  },
   "common": {
-    "version": "v0.0.0 · scaffold"
+    "version": "v0.0.0"
   }
 }
