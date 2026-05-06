@@ -38,9 +38,25 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="flex flex-col items-center justify-center gap-3 px-6 pt-16 pb-10 text-center">
+      <section className="flex flex-col items-center justify-center gap-3 px-6 pt-16 pb-6 text-center">
         <h1 className="text-5xl font-bold tracking-tight">{t("app.title")}</h1>
         <p className="text-muted-foreground max-w-prose text-balance">{t("app.tagline")}</p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-6 pb-6">
+        <Card className="border-primary/40 bg-primary/5">
+          <CardHeader>
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <CardTitle>{t("home.demoTitle")}</CardTitle>
+                <CardDescription>{t("home.demoDescription")}</CardDescription>
+              </div>
+              <Button asChild>
+                <Link to="/demo">{t("home.demoOpen")}</Link>
+              </Button>
+            </div>
+          </CardHeader>
+        </Card>
       </section>
 
       <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-5xl mx-auto px-6 pb-16">

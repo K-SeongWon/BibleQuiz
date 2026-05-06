@@ -10,18 +10,81 @@
   },
   "stage": {
     "title": "Stage",
-    "placeholder": "곧 문제와 점수판이 여기에 표시됩니다."
+    "placeholder": "전광판 화면 — 문제·점수판이 큰 화면으로 표시됩니다.",
+    "notStarted": "매치 대기 중",
+    "waiting": "곧 시작합니다…",
+    "ended": "매치 종료",
+    "questionCounter": "{{current}} / {{total}}",
+    "armed": "🔔 부저 활성화 — 누가 가장 빠를까요?",
+    "locked": "{{name}} ({{team}}) 응답!",
+    "correct": "✅ 정답!",
+    "passed": "패스됨"
   },
   "console": {
     "title": "Console",
-    "placeholder": "진행자 제어 패널 — 구현 대기."
+    "placeholder": "진행자 제어 패널.",
+    "idle": "매치를 시작하세요",
+    "qProgress": "문제 {{current}} / {{total}} · {{phase}}",
+    "reset": "초기화",
+    "start": "매치 시작",
+    "arm": "버저 활성화!",
+    "waitingBuzz": "🔔 응답 대기 중…",
+    "correct": "정답",
+    "wrong": "오답",
+    "pass": "패스",
+    "next": "다음 문제",
+    "ended": "매치 종료됨",
+    "answer": "정답",
+    "scoreboard": "점수판",
+    "players": "참가자",
+    "noPlayers": "아직 참가자가 없습니다.",
+    "cooldown": "쿨타임 {{n}}"
   },
   "pad": {
     "title": "Pad",
-    "placeholder": "참가자 입력 화면 — 구현 대기."
+    "placeholder": "참가자 입력 화면.",
+    "joinTitle": "매치 참가",
+    "joinDescription": "이름을 입력하고 팀을 선택하세요.",
+    "name": "이름",
+    "namePlaceholder": "예: 홍길동",
+    "team": "팀",
+    "joinButton": "참가",
+    "notJoined": "아직 참가하지 않았습니다.",
+    "changeTeam": "팀 변경",
+    "cooldown": "쿨타임 {{n}}",
+    "buzzer": {
+      "idle": "대기 중",
+      "waiting": "대기 중",
+      "armed": "지금 누르세요!",
+      "youBuzzed": "응답 중!",
+      "otherBuzzed": "다른 참가자 응답 중",
+      "cooldown": "잠시 후 다시…",
+      "correct": "✅ 정답!",
+      "judged": "다음 문제로",
+      "passed": "패스됨",
+      "ended": "매치 종료"
+    }
+  },
+  "phase": {
+    "idle": "대기",
+    "showing": "문제 표시 중",
+    "armed": "버저 활성",
+    "locked": "응답 중",
+    "judged": "정답 처리됨",
+    "passed": "패스",
+    "ended": "종료"
+  },
+  "demo": {
+    "pads": "참가자 단말 (Pads)",
+    "addPlayer": "참가자 추가",
+    "addFirst": "첫 참가자 추가",
+    "empty": "아직 참가자가 없습니다. 위 버튼으로 가상 참가자를 추가해 시연해보세요."
   },
   "home": {
-    "open": "열기"
+    "open": "열기",
+    "demoTitle": "🎬 한 화면 데모",
+    "demoDescription": "Stage / Console / Pad를 동시에 띄워 부저비터 진행을 시연해 봅니다.",
+    "demoOpen": "데모 열기"
   },
   "theme": {
     "toggle": "테마 전환"
